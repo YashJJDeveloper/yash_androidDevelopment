@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+
+    android:layout_margin="0dp"
+    android:layerType="software"
+    android:background="@drawable/pro"
+    android:fitsSystemWindows="true"
+    android:fadeScrollbars="true">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BMI CALCULATOR"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textColor="@color/white" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/age_input"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="AGE"
+            android:inputType="number"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:hint="WEIGHT"
+            android:inputType="number"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/meter"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="METER"
+                android:inputType="number"
+                android:textColor="@color/white" />
+
+            <EditText
+                android:id="@+id/centimeter"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="CM"
+                android:inputType="number"
+                android:textColor="@color/white" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Calculate BMI" />
+
+    <TextView
+        android:id="@+id/result_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOR BMI is:"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textFontWeight="@integer/material_motion_duration_long_1"
+        />
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="100dp"
+            android:layerType="software"
+            android:src="@drawable/bmi" />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+<!--    < application android:name="Calculator"-->
+<!--        android:label="@string/Calculator"-->
+<!--        android:icon="@mipmap/pro.png"/>-->
+<!--display-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    >
+    <!--first row-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="AC" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="Bckspc" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="%" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="/" />
+    </LinearLayout>
+
+    <!--    second row-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="7" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="8" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="9" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="*" />
+    </LinearLayout>
+
+    <!--    third row-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="4" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="5" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="6" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="-" />
+    </LinearLayout>
+    <!--Fourth row-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="1" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="2" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="3" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="+" />
+    </LinearLayout>
+
+    <!--    fifth row-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:text="0" />
+
+<!--        <Button-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:text="" />-->
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="." />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:text="=" />
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
